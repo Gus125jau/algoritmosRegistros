@@ -1,0 +1,41 @@
+Algoritmo "notas_tresalunos"
+
+Tipo TAluno = Registro
+   nome: caracter
+   nota1:real
+   nota2:real
+   nota3:real
+   media:real
+fimregistro
+
+
+Var
+
+   Aluno: TAluno
+   i:inteiro
+
+Inicio
+
+   Escreva("Aluno ", i, " - nome: ")
+   Leia(aluno.nome)
+
+   Escreva("Aluno ", i, " - nota1: ")
+   Leia(aluno.nota1)
+
+   Escreva("Aluno ", i, " - nota2: ")
+   Leia(aluno.nota2)
+
+   Escreva("Aluno ", i, " - nota3: ")
+   Leia(aluno.nota3)
+
+   Aluno.media <- (aluno.nota1+aluno.nota2+aluno.nota3)/3
+
+   Se (Aluno.media >= 7) Entao
+      Escreva("Aprovado")
+   fimse
+
+
+   Escreval("nome: ", Aluno.nome, " | media: ", aluno.media)
+
+
+Fimalgoritmo
